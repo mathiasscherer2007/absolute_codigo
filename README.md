@@ -1,2 +1,5 @@
 # abosolute_codigo
- asdasdasdad
+
+asdasdasdad
+
+Repositório com códigos e projetos importantes/úteis feitos por Mathias aka. Xerão
