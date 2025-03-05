@@ -152,4 +152,9 @@ ol {
   border: 1px solid #a2e1db;
   box-shadow: 3px 3px 3px rgb(20, 20, 20);
   margin: auto 0 2% 0;
+  transition: all 0.3s;
+}
+
+.botao_retorno:hover {
+  background-color: rgb(193, 255, 234);
 }
