@@ -23,7 +23,7 @@ label{
     width: 10%;
 }
 
-input, select{
+input, select, button{
     color: black;
     margin: 5px;
 }
