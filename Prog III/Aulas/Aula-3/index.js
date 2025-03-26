@@ -16,10 +16,13 @@
 
 const botao = document.getElementById("botao");
 // console.log(botao);
-botao.style.backgroundColor = "rgb(255, 0 ,0)";
 
 const formulario = document.getElementById("form");
 formulario.addEventListener("submit", function(event){
     event.preventDefault();
-    alert("O que é teu tá guardado");
+    const formData = new FormData(this);
+    let dados = Object.fromEntries(formData.entries());
+    // console.log(`${dados["nome"]} tem ${dados["idade"]} anos.`);
+    let texto = document.getElementById("texto");
+    texto.textContent = `${dados["nome"]} tem ${dados["idade"]} anos.`;
 })

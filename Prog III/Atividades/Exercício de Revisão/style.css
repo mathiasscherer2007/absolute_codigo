@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.central {
+  width: 85%;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 1% 2%;
+  box-shadow: 3px 3px 3px rgb(82, 82, 82);
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+input {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  margin: 15px auto;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.entrada {
+  margin: 20px 0px;
+}
+
+.saida {
+  display: flex;
+  width: 70%;
+  margin: 20px auto 0px auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.saida_item {
+  font-size: large;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+#entOuBus {
+  padding: 10px;
+  width: 100%;
+}
+
+#quant {
+  width: 15%;
+}
+
+#enviar{
+    box-shadow: 3px 3px 3px rgb(82, 82, 82);
+}
+
+#enviar:hover, select:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 1024px){
+    .central{
+        width: 40%;
+    }
+
+    .inputs {
+        width: 70%;
+      }
+}
