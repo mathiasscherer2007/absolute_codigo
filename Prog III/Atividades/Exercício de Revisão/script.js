@@ -6,6 +6,8 @@ document.getElementById("form").addEventListener("submit", function(event){
     const FORMDATA = new FormData(this);
     let dados = Object.fromEntries(FORMDATA.entries());
 
+    console.log(dados);
+
     let preco = 0;
     
     switch (dados["tamanho"]){
@@ -38,5 +40,5 @@ document.getElementById("form").addEventListener("submit", function(event){
     }
 
     console.log(preco);
-    SAIDA_VALOR.innerText = `R$${preco.toFixed(2)}`
+    SAIDA_VALOR.innerText = `R$${preco.toFixed(2)}`;
 })
