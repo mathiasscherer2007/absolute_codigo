@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 5px solid cyan;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.caixa{
+    color: white;
+    background: linear-gradient(green, blue);
+    font-family: consolas;
+    font-size: 4em;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+#caixa1{
+    order: 1;
+}

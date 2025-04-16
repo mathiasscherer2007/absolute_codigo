@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll Dice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="conta">
+      <div class="div_entrada">
+        <h1>(Rola)gem de Dados</h1>
+
+        <div class="entrada">
+          <input type="number" placeholder="num. de dados" min="0" id="input">
+        </div> <!--/entrada-->
+        <div class="entrada">
+          <button id="botao">Rolar</button>
+        </div> <!--/entrada-->
+        <div id="saida" class="entrada">
+           Total: 0
+        </div>
+      </div>
+      <div class="div_dados" id="div_dados">
+        Os dados aparecerão aqui :)
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

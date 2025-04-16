@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Catamaran:wght@100..900&family=Poiret+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Catamaran", sans-serif;
+}
+
+html, body, .container{
+    height: 100%;
+}
+
+input{
+    text-align: center;
+    margin: 2% 0;
+}
+
+h1{
+    margin: 15px;
+    font-size: 2.8em;
+}
+
+.container, .central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    border: 1px solid black;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(58, 58, 58);
+}
+
+.entradas{
+    display: flex;
+    flex-direction: column;
+    width: clamp(10px, 50%, 300px);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.resultado{
+    margin: 4%;
+    font-size: 1.3em;
+}
+
+.creditos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media (min-width: 1025px){
+
+    h1{
+        margin: 10px;
+    }
+
+    .central{
+        width: 70%;
+    }
+
+    .entradas{
+        flex-direction: row;
+    }
+
+    .grupo{
+        margin: 5px;
+    }
+
+    .resultado{
+        margin: 2vh;
+        font-size: 1.3em;
+    }
+
+}
