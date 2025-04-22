@@ -1,0 +1,27 @@
+Convention for code reading and writing used in this project.
+
+HTML
+- Tags with nothing inside of them in the HTML file are closed in the same line.
+- Indentation is regular.
+- No ID's are used.
+
+CSS
+- DRY: don't reapeat yourself. Put tags with equal styling in the same block (when it makes sense, of course).
+- Blocks of CSS are to be organized the following way:
+tag{
+    DIMENSIONS/PLACEMENT
+    This can refer to placement inside a grid, width, height, etc.
+
+    DISPLAY
+    This is for defining grid/flexbox options
+
+    STYLING
+    The rest which was not covered above. 
+    Try to follow cohesive patterns, putting some things above others to facilitate future readability and changes.
+
+    COMMENTARY
+    Comments, plans, complaints and curses.
+}
+
+JavaScript
+- Variables refering to HTML DOM elements need to have and indication of element in lowercase. I.E. const divPLACEMENT
