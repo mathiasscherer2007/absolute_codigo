@@ -4,8 +4,8 @@ class Enemy{
         this.name = name;
         this.damage = damage;
         this.health = health;
-        this.image = image === "" ? false : image;
-        this.ability = ability === "" ? false : ability;
+        this.image = image === "" ? "none" : image;
+        this.ability = ability === "" ? "none" : ability;
     }
 
     generateCard(){
@@ -21,6 +21,6 @@ class Enemy{
     }
 }
 
-const garcia = new Enemy(1, "Garcia Pereira", 3, 30, "Images/Enemies/pera.png", "");
+const garcia = new Enemy(1, "Hermano Pera", 3, 5, "Images/Enemies/pera.png", "");
 
 export const enemyList = [garcia];
