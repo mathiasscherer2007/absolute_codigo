@@ -26,12 +26,14 @@ img {
 }
 
 .divCentral{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     width: 20%;
+    min-height: 60%;
 
     text-align: center;
     padding: 20px;
@@ -39,6 +41,19 @@ img {
     border-radius: 10px;
     background-color: rgb(194, 166, 139);
     box-shadow: 3px 3px 3px rgb(20, 20, 20);
+}
+
+.reroll{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(42, 165, 165);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.reroll:hover{
+    cursor: pointer;
 }
 
 .imagem{
