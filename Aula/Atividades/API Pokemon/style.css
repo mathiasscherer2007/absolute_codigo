@@ -1,15 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 html, body, .container{
     height: 100%;
 }
 
+img {
+    image-rendering: pixelated;
+  }
+  
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: rgb(214, 188, 162);
+}
+
+.divCentral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 20%;
+
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(176, 150, 125);
+    border-radius: 10px;
+    background-color: rgb(194, 166, 139);
+    box-shadow: 3px 3px 3px rgb(20, 20, 20);
+}
+
+.imagem{
+    width: 100%;
+    margin-bottom: -30px;
+    margin-top: -20px;
 }
