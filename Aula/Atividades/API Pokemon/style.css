@@ -1,15 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
 }
 
 html, body, .container{
     height: 100%;
 }
 
+img {
+    image-rendering: pixelated;
+  }
+  
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: rgb(214, 188, 162);
+}
+
+.divCentral{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 20%;
+    min-height: 60%;
+
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(176, 150, 125);
+    border-radius: 10px;
+    background-color: rgb(194, 166, 139);
+    box-shadow: 3px 3px 3px rgb(20, 20, 20);
+}
+
+.reroll{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(42, 165, 165);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.reroll:hover{
+    cursor: pointer;
+}
+
+.imagem{
+    width: 100%;
+    background-size: 125% 125%;
+    background-position: center;
+    image-rendering: pixelated;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.nome img{
+    width: 2em;
+    margin: -3px;
+}
+
+.divTipo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.tipo{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.icon{
+    height: 1.9em;
+    aspect-ratio: 1/1;
 }
