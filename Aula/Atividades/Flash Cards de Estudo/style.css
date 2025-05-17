@@ -35,8 +35,9 @@ html, body, .container{
     background-color: #bcd8ec;
     border-radius: 15px;
     border: 3px solid #acc6d8;
+    outline: 0px solid #8dbcdd;
     will-change: transform;
-    transition: box-shadow 0.15s ease-out, background-color 0.15s ease-out, height 0.15s, width 0.15s, transform 0.15s;
+    transition: outline 0.15s ease-out, background-color 0.15s ease-out, height 0.15s, width 0.15s, transform 0.15s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +47,7 @@ html, body, .container{
 }
 
 .card:hover{
-    box-shadow: 0 0 10px #bcd8ec;
+    outline: 3px solid #8dbcdd;
 }
 
 .buttons{
@@ -75,11 +76,12 @@ html, body, .container{
 
 .pergunta{
     font-style: italic;
-    animation: girar1 0.5s;
+    animation: girar1 0.4s ease-in-out;
 }
 
 .resposta{
-    animation: girar2 0.5s;
+    animation: girar2 0.4s ease-in-out;
+    background-color: #abc8dc;
 }
 
 @keyframes girar1 {
