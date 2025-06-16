@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+html, body, .container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+}
+
+.cofre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 30px;
+    outline: 20px solid grey;
+}
