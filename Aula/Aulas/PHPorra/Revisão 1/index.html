@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gosto Musgal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="central" method="POST" action="processa.php">
+            <h1 class="titulo">Gosto Musical</h1>
+            <div class="item">
+                <p>Eu gosto de:</p>
+                <div class="inputs">
+                    <label>
+                        <input type="radio" name="nacionalidade" value="nacional" required>Música nacional
+                    </label>
+                    <label>
+                        <input type="radio" name="nacionalidade" value="internacional">Música internacional
+                    </label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Eu prefiro:</p>
+                <div class="inputs">
+                    <label>
+                        <input type="radio" name="tipoGrupo" value="banda" required>Banda
+                    </label>
+                    <label>
+                        <input type="radio" name="tipoGrupo" value="cantor">Cantor
+                    </label>
+                </div>
+            </div>
+            <div class="item">
+                <p>Os gêneros musicais que eu curto são:</p>
+                <div class="gradeCheck">
+                    <label>
+                        <input type="checkbox" name="1">Rock
+                    </label>
+                    <label>
+                        <input type="checkbox" name="2">Pop
+                    </label>
+                    <label>
+                        <input type="checkbox" name="3">Blues
+                    </label>
+                    <label>
+                        <input type="checkbox" name="4">Metal
+                    </label>
+                    <label>
+                        <input type="checkbox" name="5">Psicodélico
+                    </label>
+                    <label>
+                        <input type="checkbox" name="6">Progressivo
+                    </label>
+                </div>
+            </div>
+            <button>Qual artista eu posso gostar?</button>
+        </form>
+    </div>
+</body>
+</html>
